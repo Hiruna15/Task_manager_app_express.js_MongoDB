@@ -6,6 +6,6 @@ const taskSchema = new Schema({
   completed: { type: Boolean, default: false },
 });
 
-const tasksModel = mongoose.model("Task", taskSchema);
+const TasksModel = mongoose.model("Task", taskSchema);
 
-export default tasksModel;
+export default TasksModel;
